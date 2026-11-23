@@ -22,6 +22,8 @@ public class Task1 {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
+        adj.clear();
+
         for (int i = 0; i < n; i++) {
             adj.add(new ArrayList<>());
         }
