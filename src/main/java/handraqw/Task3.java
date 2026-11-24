@@ -41,7 +41,7 @@ public class Task3 {
             edges.add(new Edge(sc.nextInt(), sc.nextInt(), sc.nextInt()));
         }
 
-        edges.sort((e1, e2) -> Integer.compare(e1.w, e2.w));
+        edges.sort((e1, e2) -> e1.w - e2.w);
 
         p = new int[n];
         for (int i = 0; i < n; i++) {
